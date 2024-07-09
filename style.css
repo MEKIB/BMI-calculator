@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(to left bottom,blue,orange);
+    margin:0;
+    height:100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.container{
+    width:500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(240,200,100);
+    padding:20px;
+    margin:auto;
+    margin-top: 85px;
+}
+.heading{
+    color:darkslategrey;
+    font-size:24px;
+    font-weight: 700;
+    margin:20px;
+    text-align:center;
+}
+.text{
+    font-size:18px;
+    color:blueviolet;
+    margin:5px;
+}
+.input{
+    background: rgba(255,255,255,0.6);
+    width:45%;
+    color:blue;
+}
+#btn{
+    color:blue;
+    background: rgba(255, 25, 34, 0.2);
+    width:30%;
+    margin-top:10px;
+    font-size:15px;
+    text-align:center;
+    border-radius:15px;
+    cursor: pointer;
+    border:none;
+    outline:none;
+}
+#btn:hover{
+    background: yellowgreen;
+    transition: all 300ms ease-in-out;
+}
+.input1{
+    width:45%;
+}
+.describe{
+    color: darkolivegreen;
+    font-size:20px;
+    font-weight: 700;
+}
+#span1{
+    color:blueviolet;
+    font-size:15px;
+    font-weight:700;
+}
